@@ -14,6 +14,9 @@ const Home = () => {
           Je suis étudiant en 2ème année Bachelor IT
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
+          En pleine reconversion professionnelle,
+        </p>
+        <p className="text-[#8892b0] pt-0 pb-4 max-w-[700px]">
           Je suis à la recherche d'un apprentissage afin d'effectuer ma 3ème
           année.
         </p>

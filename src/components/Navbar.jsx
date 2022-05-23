@@ -6,7 +6,7 @@ import {
   BsFillFileEarmarkPdfFill,
 } from "react-icons/bs";
 import Logo from "../assets/Logo_CA.png";
-/*import { Link } from "react-scroll";*/
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -20,31 +20,32 @@ const Navbar = () => {
       {/*Menu */}
       <div className="hidden md:flex ">
         <ul className="flex">
-          <li>
-            {/*<Link to="home" smooth={true} duration={500}>*/}
-            Accueil
-            {/*</Link>*/}
+          <li className=" md:hover:underline md:hover:text-vertfluo">
+            <Link to="home" smooth={true} duration={500}>
+              Accueil
+            </Link>
           </li>
-          <li>
-            {/*<Link to="about" smooth={true} duration={500}>*/}
-            Qui suis-je ?{/*</Link>*/}
+          <li className="md:hover:underline md:hover:text-vertfluo">
+            <Link to="about" smooth={true} duration={500}>
+              Qui suis-je ?
+            </Link>
           </li>
-          <li>
+          <li className="md:hover:underline md:hover:text-vertfluo">
             {/*<Link to="formation" smooth={true} duration={500}>*/}
             Formations & Expériences
             {/*</Link>*/}
           </li>
-          <li>
+          <li className="md:hover:underline md:hover:text-vertfluo">
             {/*<Link to="skills" smooth={true} duration={500}>*/}
             Compétences & Hobbies
             {/*</Link>*/}
           </li>
-          <li>
+          <li className="md:hover:underline md:hover:text-vertfluo">
             {/*<Link to="work" smooth={true} duration={500}>*/}
             Projets Réalisés
             {/*</Link>*/}
           </li>
-          <li>
+          <li className="md:hover:underline md:hover:text-vertfluo">
             {/*<Link to="contact" smooth={true} duration={500}>*/}
             Contact
             {/*</Link>*/}
