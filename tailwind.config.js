@@ -9,7 +9,7 @@ module.exports = {
         blanc60: "#9da3ac",
         blanc40: "#6c7582",
         br: "rgba(0, 0, 0, 0.274)",
-        tab: "rgba(128, 128, 128, 0.075)",
+        tab: "#132135",
         tab2: "rgb(88, 147, 241)",
       },
       fontSize: {
