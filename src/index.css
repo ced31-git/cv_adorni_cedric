@@ -13,3 +13,51 @@
     @apply cursor-pointer;
   }
 }
+
+@layer components {
+ 
+.container {
+  @apply flex flex-col relative w-full h-80 break-all border-br mx-auto;
+}
+
+.bloc-tabs {
+  @apply flex border-x;
+}
+.tabs {
+  @apply p-4 text-center w-1/2 bg-tab cursor-pointer border-y box-content relative outline-none;
+}
+ 
+.tabs:not(:last-child){
+  @apply border-r-br;
+}
+
+.active-tabs  {
+  @apply border-b-transparent
+}
+
+.active-tabs::before {
+  @apply content-[''] block absolute left-1/2 -top-1 transform -translate-x-1/2 w-full h-1 bg-vertfluo;
+}
+
+
+
+button {
+  @apply border-0;
+  
+}
+.content-tabs {
+  @apply grow;
+}
+.content {
+  @apply p-5 w-full h-full hidden;
+}
+.content h2 {
+  @apply p-0 pl-1;
+}
+.content p {
+  @apply w-full h-full;
+}
+.active-content {
+  @apply block;
+}
+}

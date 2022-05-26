@@ -2,8 +2,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 /*import Contact from "./components/Contact";*/
-/*import Skills from "./components/Skills";*/
-/*import Work from "./components/Work";*/
+import Skills from "./components/Skills";
+import Work from "./components/Work";
 /*import Formation from "./components/Formation";*/
 
 function App() {
@@ -12,10 +12,10 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      {/* <Contact /> */}
-      {/* <Skills /> */}
-      {/* <Work /> */}
       {/* <Formation /> */}
+      <Skills />
+      <Work /> 
+      {/* <Contact /> */}
     </div>
   );
 }

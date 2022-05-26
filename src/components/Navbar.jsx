@@ -5,7 +5,7 @@ import {
   BsFillPersonLinesFill,
   BsFillFileEarmarkPdfFill,
 } from "react-icons/bs";
-import Logo from "../assets/Logo_CA.png";
+import Logo from "../assets/icons/Logo_CA.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
             <Link to="about" smooth={true} duration={500}>
-              Qui suis-je ?
+              A propos
             </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
@@ -36,14 +36,19 @@ const Navbar = () => {
             {/*</Link>*/}
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            {/*<Link to="skills" smooth={true} duration={500}>*/}
-            Compétences & Hobbies
-            {/*</Link>*/}
+            <Link to="skills" smooth={true} duration={500}>
+              Compétences
+            </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            {/*<Link to="work" smooth={true} duration={500}>*/}
-            Projets Réalisés
-            {/*</Link>*/}
+            <Link to="hobbies" smooth={true} duration={500}>
+              Hobbies
+            </Link>
+          </li>
+          <li className="md:hover:underline md:hover:text-vertfluo">
+            <Link to="work" smooth={true} duration={500}>
+              Projets Réalisés
+            </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
             {/*<Link to="contact" smooth={true} duration={500}>*/}
@@ -66,13 +71,14 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          {/*<Link onClick={handleClick} to="home" smooth={true} duration={500}> */}
-          Accueil
-          {/*</Link>*/}
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            Accueil
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          {/*<Link onClick={handleClick} to="about" smooth={true} duration={500}> */}
-          Qui suis-je ?{/*</Link>*/}
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            A propos
+          </Link>
         </li>
         <li className="py-6 text-4xl">
           {/*<Link onClick={handleClick} to="formation" smooth={true} duration={500}> */}
@@ -80,14 +86,19 @@ const Navbar = () => {
           {/*</Link>*/}
         </li>
         <li className="py-6 text-4xl">
-          {/*<Link onClick={handleClick} to="skills" smooth={true} duration={500}> */}
-          Compétences & Hobbies
-          {/*</Link>*/}
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Compétences
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          {/*<Link onClick={handleClick} to="work" smooth={true} duration={500}> */}
-          Projets Réalisés
-          {/*</Link>*/}
+          <Link onClick={handleClick} to="hobbies" smooth={true} duration={500}>
+            Hobbies
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            Projets Réalisés
+          </Link>
         </li>
         <li className="py-6 text-4xl">
           {/*<Link onClick={handleClick} to="contact" smooth={true} duration={500}> */}
@@ -109,8 +120,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1a1919]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://github.com/ced31-git"
+              href={`url('https://github.com/ced31-git')`}
               target="_blank"
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
