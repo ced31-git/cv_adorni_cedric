@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ProjectEducation from './subcomponents/ProjectEducation';
+import FullProjects from './subcomponents/FullProjects';
 
 const Work = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -52,10 +53,7 @@ const Work = () => {
                 toggleState === 2 ? "content  active-content" : "content"
               }
             >
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Sapiente voluptatum qui adipisci.
-              </p>
+              <FullProjects />
             </div>
           </div>
         </div>
