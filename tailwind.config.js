@@ -11,6 +11,7 @@ module.exports = {
         br: "rgba(0, 0, 0, 0.274)",
         tab: "#132135",
         tab2: "rgb(88, 147, 241)",
+        input: "#ccd6f6",
       },
       fontSize: {
         xxs: ".5rem",

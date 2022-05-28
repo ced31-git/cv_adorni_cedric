@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-/*import Contact from "./components/Contact";*/
+import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 /*import Formation from "./components/Formation";*/
@@ -15,7 +15,7 @@ function App() {
       {/* <Formation /> */}
       <Skills />
       <Work /> 
-      {/* <Contact /> */}
+     <Contact />
     </div>
   );
 }

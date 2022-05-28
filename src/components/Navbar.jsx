@@ -51,9 +51,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            {/*<Link to="contact" smooth={true} duration={500}>*/}
+            <Link to="contact" smooth={true} duration={500}>
             Contact
-            {/*</Link>*/}
+            </Link>
           </li>
         </ul>
       </div>
@@ -101,9 +101,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          {/*<Link onClick={handleClick} to="contact" smooth={true} duration={500}> */}
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}> 
           Contact
-          {/*</Link>*/}
+          </Link>
         </li>
       </ul>
       {/* Icones Réseaux Sociaux */}

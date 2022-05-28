@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ProjectEducation from './subcomponents/ProjectEducation';
-import FullProjects from './subcomponents/FullProjects';
+import ProjectEducation from "./subcomponents/ProjectEducation";
+import FullProjects from "./subcomponents/FullProjects";
 
 const Work = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -39,22 +39,20 @@ const Work = () => {
             </button>
           </div>
 
-          <div className="">
-            <div
-              className={
-                toggleState === 1 ? "content  active-content" : "content"
-              }
-            >
-                <ProjectEducation />
-            </div>
+          <div
+            className={
+              toggleState === 1 ? "content  active-content" : "content"
+            }
+          >
+            <ProjectEducation />
+          </div>
 
-            <div
-              className={
-                toggleState === 2 ? "content  active-content" : "content"
-              }
-            >
-              <FullProjects />
-            </div>
+          <div
+            className={
+              toggleState === 2 ? "content  active-content" : "content"
+            }
+          >
+            <FullProjects />
           </div>
         </div>
       </div>
