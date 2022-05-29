@@ -7,6 +7,8 @@ import {
 } from "react-icons/bs";
 import Logo from "../assets/icons/Logo_CA.png";
 import { Link } from "react-scroll";
+import SocialIcons from "./subcomponents/Social_Icons";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -52,7 +54,7 @@ const Navbar = () => {
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
             <Link to="contact" smooth={true} duration={500}>
-            Contact
+              Contact
             </Link>
           </li>
         </ul>
@@ -70,6 +72,7 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-darkblue flex flex-col justify-center items-center"
         }
       >
+        
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Accueil
@@ -101,58 +104,14 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}> 
-          Contact
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
           </Link>
         </li>
       </ul>
-      {/* Icones Réseaux Sociaux */}
+      {/* Icones Réseaux Sociaux: lg screen*/}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1a1919]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href={`url('https://github.com/ced31-git')`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#409683]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="mailto:adorni.cedric@gmail.com"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#852222]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-              download
-            >
-              Télécharger CV <BsFillFileEarmarkPdfFill size={30} />
-            </a>
-          </li>
-        </ul>
+        <SocialIcons />
       </div>
     </div>
   );
