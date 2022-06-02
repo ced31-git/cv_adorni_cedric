@@ -5,7 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
-/*import Formation from "./components/Formation";*/
+import Education from "./components/Education_ProfessionalExperiences";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <SocialIconsMobile />
       <Home />
       <About />
-      {/* <Formation /> */}
+      <Education />
       <Skills />
       <Work /> 
      <Contact />

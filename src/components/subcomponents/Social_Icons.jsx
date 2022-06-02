@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import {
@@ -20,7 +20,7 @@ const Social_Icons = () => {
       <li className="w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#1a1919]">
         <a
           className="flex justify-between items-center w-full text-gray-300"
-          href={`url('https://github.com/ced31-git')`}
+          href="https://github.com/ced31-git"
           target="_blank"
           rel="noreferrer"
         >
@@ -35,14 +35,6 @@ const Social_Icons = () => {
           Email <HiOutlineMail size={30} />
         </a>
       </li>
-      <li className="w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-        <a
-          className="flex justify-between items-center w-full text-gray-300"
-          href="/"
-        >
-          Resume <BsFillPersonLinesFill size={30} />
-        </a>
-      </li>
       <li className="w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#852222]">
         <a
           className="flex justify-between items-center w-full text-gray-300"
@@ -54,6 +46,6 @@ const Social_Icons = () => {
       </li>
     </ul>
   );
-}
+};
 
-export default Social_Icons
+export default Social_Icons;

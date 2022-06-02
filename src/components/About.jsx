@@ -1,4 +1,5 @@
 import React from "react";
+import Moi from "../assets/icons/adorniCedric.png";
 
 const About = () => {
   return (
@@ -6,7 +7,7 @@ const About = () => {
       name="about"
       className="w-full h-screen bg-darkblue text-slate-100  md:pt-32"
     >
-      <div className="flex flex-col justify-center items-center w-full h-full">
+      <div className="flex flex-col justify-center items-center w-full h-screen">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-vertfluo">
@@ -16,12 +17,14 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="text-3xl font-bold sm:text-right md:text-4xl ">
-            <p>Bonjour,</p>
-            <p>Je m'appelle Cédric.</p>
-            <p>
-              Et je suis enchanté que vous preniez le temps de regarder mon
-              portfolio
-            </p>
+            <div>
+              <p>Bonjour,</p>
+              <p>Je m'appelle Cédric.</p>
+              <p>
+                Et je suis enchanté que vous preniez le temps de regarder mon
+                portfolio
+              </p>
+            </div>
           </div>
           <div>
             <p>J'ai 32 ans et je suis en reconversion professionnelle.</p>

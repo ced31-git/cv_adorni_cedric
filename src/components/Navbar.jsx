@@ -9,7 +9,6 @@ import Logo from "../assets/icons/Logo_CA.png";
 import { Link } from "react-scroll";
 import SocialIcons from "./subcomponents/Social_Icons";
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -33,18 +32,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            {/*<Link to="formation" smooth={true} duration={500}>*/}
-            Formations & Expériences
-            {/*</Link>*/}
+            <Link to="education" smooth={true} duration={500}>
+              Formations & Expériences
+            </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
             <Link to="skills" smooth={true} duration={500}>
               Compétences
-            </Link>
-          </li>
-          <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="hobbies" smooth={true} duration={500}>
-              Hobbies
             </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
@@ -72,7 +66,6 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-darkblue flex flex-col justify-center items-center"
         }
       >
-        
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Accueil
@@ -84,18 +77,22 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          {/*<Link onClick={handleClick} to="formation" smooth={true} duration={500}> */}
-          Formations & Expériences
-          {/*</Link>*/}
+          <Link
+            onClick={handleClick}
+            to="education"
+            smooth={true}
+            duration={500}
+          >
+            <ul className="">
+              <li className="flex justify-center items-center">Formations</li>
+              <li className="flex justify-center items-center">&</li>
+              <li className="flex justify-center items-center">Expériences</li>
+            </ul>
+          </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Compétences
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="hobbies" smooth={true} duration={500}>
-            Hobbies
           </Link>
         </li>
         <li className="py-6 text-4xl">

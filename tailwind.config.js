@@ -19,6 +19,14 @@ module.exports = {
       spacing: {
         26: "105px",
       },
+      screens: {
+        "7xs": "280px",
+        "6xs": "360px",
+        "5xs": "375px",
+        "4xs": "390px",
+        "3xs": "393px",
+        "2xs": "412px",
+      },
     },
   },
   plugins: [],

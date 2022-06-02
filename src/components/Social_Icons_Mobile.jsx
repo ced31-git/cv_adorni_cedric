@@ -8,7 +8,7 @@ import {
 
 const Social_Icons_Mobile = () => {
   return (
-    <div className="flex justify-between items-center fixed top-[83%] left-0 lg:hidden">
+    <div className="flex justify-between items-center fixed top-[83%] left-0 lg:hidden 7xs:top-[76%] 6xs:top-[79%] 5xs:top-[77%] 4xs:top-[81%] 3xs:top-[82%] 2xs:top-[83%]">
       <ul className="flex">
         <li className="w-[60px] h-[270px] flex justify-center items-start mt-[110px] hover:mt-[-80px] duration-300 bg-blue-700 py-2">
           <a
@@ -34,7 +34,7 @@ const Social_Icons_Mobile = () => {
         <li className="w-[60px] h-[270px] flex justify-center items-start mt-[110px] hover:mt-[-80px] duration-300 bg-[#1a1919] py-2">
           <a
             className="flex justify-center items-center w-full text-gray-300"
-            href={`url('https://github.com/ced31-git')`}
+            href="https://github.com/ced31-git"
             target="_blank"
             rel="noreferrer"
           >
@@ -67,25 +67,6 @@ const Social_Icons_Mobile = () => {
               <li className="flex justify-center items-center">a</li>
               <li className="flex justify-center items-center">i</li>
               <li className="flex justify-center items-center">l</li>
-            </ul>
-          </a>
-        </li>
-        <li className="w-[60px] h-[270px] flex justify-between items-start mt-[110px] hover:mt-[-80px] duration-300 bg-[#565f69] py-2">
-          <a
-            className="flex justify-center items-center w-full text-gray-300"
-            href="/"
-          >
-            <ul>
-              <li>
-                <BsFillPersonLinesFill size={30} />
-              </li>
-              <br />
-              <li className="flex justify-center items-center">R</li>
-              <li className="flex justify-center items-center">e</li>
-              <li className="flex justify-center items-center">s</li>
-              <li className="flex justify-center items-center">u</li>
-              <li className="flex justify-center items-center">m</li>
-              <li className="flex justify-center items-center">e</li>
             </ul>
           </a>
         </li>
