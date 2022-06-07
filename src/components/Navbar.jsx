@@ -22,22 +22,22 @@ const Navbar = () => {
       <div className="hidden md:flex ">
         <ul className="flex">
           <li className=" md:hover:underline md:hover:text-vertfluo">
-            <a href="/cv_adorni_cedric">Accueil</a>
+            <a href="./">Accueil</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/cv_adorni_cedric/about">A propos</a>
+            <a href="./about">A propos</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/cv_adorni_cedric/education">Formations & Expériences</a>
+            <a href="./education">Formations & Expériences</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/cv_adorni_cedric/skills">Compétences</a>
+            <a href="./skills">Compétences</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/cv_adorni_cedric/work">Projets Réalisés</a>
+            <a href="./work">Projets Réalisés</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/cv_adorni_cedric/contact">Contact</a>
+            <a href="./contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -55,13 +55,13 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <a href="/cv_adorni_cedric">Accueil</a>
+          <a href="./">Accueil</a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/cv_adorni_cedric/about">A propos</a>
+          <a href="./about">A propos</a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/cv_adorni_cedric/education">
+          <a href="./education">
             <ul className="">
               <li className="flex justify-center items-center">Formations</li>
               <li className="flex justify-center items-center">&</li>
@@ -70,13 +70,13 @@ const Navbar = () => {
           </a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/cv_adorni_cedric/skills">Compétences</a>
+          <a href="./skills">Compétences</a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/cv_adorni_cedric/work">Projets Réalisés</a>
+          <a href="./work">Projets Réalisés</a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/cv_adorni_cedric/contact">Contact</a>
+          <a href="./contact">Contact</a>
         </li>
       </ul>
       {/* Icones Réseaux Sociaux: lg screen*/}
