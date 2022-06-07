@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv_adorni_cedric/static/css/main.e1ce07c1.css",
-    "main.js": "/cv_adorni_cedric/static/js/main.e6ab55a9.js",
+    "main.js": "/cv_adorni_cedric/static/js/main.f9651661.js",
     "static/media/sliderJs.png": "/cv_adorni_cedric/static/media/sliderJs.5f8d636b846761944de2.png",
     "static/media/bep07.png": "/cv_adorni_cedric/static/media/bep07.9915309346d8af4ec0e6.png",
     "static/media/cap12.png": "/cv_adorni_cedric/static/media/cap12.0ad7f1e305dba9144652.png",
@@ -36,10 +36,10 @@
     "static/media/javascript.png": "/cv_adorni_cedric/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/cv_adorni_cedric/index.html",
     "main.e1ce07c1.css.map": "/cv_adorni_cedric/static/css/main.e1ce07c1.css.map",
-    "main.e6ab55a9.js.map": "/cv_adorni_cedric/static/js/main.e6ab55a9.js.map"
+    "main.f9651661.js.map": "/cv_adorni_cedric/static/js/main.f9651661.js.map"
   },
   "entrypoints": [
     "static/css/main.e1ce07c1.css",
-    "static/js/main.e6ab55a9.js"
+    "static/js/main.f9651661.js"
   ]
 }
