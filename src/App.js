@@ -14,12 +14,12 @@ function App() {
       <Navbar />
       <SocialIconsMobile />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/cv_adorni_cedric" element={<Home />} />
+        <Route path="/cv_adorni_cedric/about" element={<About />} />
+        <Route path="/cv_adorni_cedric/education" element={<Education />} />
+        <Route path="/cv_adorni_cedric/skills" element={<Skills />} />
+        <Route path="/cv_adorni_cedric/work" element={<Work />} />
+        <Route path="/cv_adorni_cedric/contact" element={<Contact />} />
       </Routes>
     </div>
   );
