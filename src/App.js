@@ -6,28 +6,22 @@ import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Education from "./components/Education_ProfessionalExperiences";
-import {Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <SocialIconsMobile />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/cv_adorni_cedric" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/education" element={<Education/>} />
+        <Route path="/skills" element={<Skills/>} />
+        <Route path="/work" element={<Work/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
-      {/*<Home />
-      <About />
-      <Education />
-      <Skills />
-      <Work /> 
-  <Contact />*/}
-    </>
+    </div>
   );
 }
 

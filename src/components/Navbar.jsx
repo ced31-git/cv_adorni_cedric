@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="hidden md:flex ">
         <ul className="flex">
           <li className=" md:hover:underline md:hover:text-vertfluo">
-            <a href="/">Accueil</a>
+            <a href="/cv_adorni_cedric">Accueil</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
             <a href="/about">A propos</a>
@@ -55,7 +55,7 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <a href="/">Accueil</a>
+          <a href="/cv_adorni_cedric">Accueil</a>
         </li>
         <li className="py-6 text-4xl">
           <a href="/about">A propos</a>
