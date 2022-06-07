@@ -22,34 +22,22 @@ const Navbar = () => {
       <div className="hidden md:flex ">
         <ul className="flex">
           <li className=" md:hover:underline md:hover:text-vertfluo">
-            <Link to="home" smooth={true} duration={500}>
-              Accueil
-            </Link>
+            <a href="/">Accueil</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="about" smooth={true} duration={500}>
-              A propos
-            </Link>
+            <a href="/about">A propos</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="education" smooth={true} duration={500}>
-              Formations & Expériences
-            </Link>
+            <a href="/education">Formations & Expériences</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="skills" smooth={true} duration={500}>
-              Compétences
-            </Link>
+            <a href="/skills">Compétences</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="work" smooth={true} duration={500}>
-              Projets Réalisés
-            </Link>
+            <a href="/work">Projets Réalisés</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="contact" smooth={true} duration={500}>
-              Contact
-            </Link>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -67,43 +55,28 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Accueil
-          </Link>
+          <a href="/">Accueil</a>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            A propos
-          </Link>
+          <a href="/about">A propos</a>
         </li>
         <li className="py-6 text-4xl">
-          <Link
-            onClick={handleClick}
-            to="education"
-            smooth={true}
-            duration={500}
-          >
+          <a href="/education">
             <ul className="">
               <li className="flex justify-center items-center">Formations</li>
               <li className="flex justify-center items-center">&</li>
               <li className="flex justify-center items-center">Expériences</li>
             </ul>
-          </Link>
+          </a>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Compétences
-          </Link>
+          <a href="/skills">Compétences</a>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Projets Réalisés
-          </Link>
+          <a href="/work">Projets Réalisés</a>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
       {/* Icones Réseaux Sociaux: lg screen*/}

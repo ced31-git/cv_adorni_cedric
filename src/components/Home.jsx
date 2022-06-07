@@ -35,8 +35,8 @@ const Home = () => {
           </Link>
 
           <a
-            href="src\assets\doc\cv-adorni-cedric-2022 .pdf"
-            download="cv-adorni-cedric-2022.pdf"
+            href="https://drive.google.com/file/d/1LRvo1rpWa7uEg5NkKW-uHdAUyAahX7Lm/view?usp=sharing"
+            download="CV_Adorni_Cédric"
           >
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-vertfluo hover:border-vertfluo hover:text-darkblue">
               Télécharger le CV

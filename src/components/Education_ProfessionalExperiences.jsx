@@ -10,7 +10,7 @@ const Education_ProfessionalExperiences = () => {
   return (
     <div
       name="education"
-      className="w-full md:h-full text-slate-100 bg-darkblue md:pt-32"
+      className="w-full md:h-full text-slate-100 bg-darkblue pt-26 md:pt-32"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="py-6">

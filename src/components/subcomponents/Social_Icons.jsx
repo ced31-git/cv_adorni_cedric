@@ -12,7 +12,9 @@ const Social_Icons = () => {
       <li className="w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-blue-700">
         <a
           className="flex justify-between items-center w-full text-gray-300"
-          href="/"
+          href="https://www.linkedin.com/in/adorni-cedric"
+          target="_blank"
+          rel="noreferrer"
         >
           Linkedin <FaLinkedin size={30} />
         </a>
@@ -35,15 +37,14 @@ const Social_Icons = () => {
           Email <HiOutlineMail size={30} />
         </a>
       </li>
-      <li className="w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#852222]">
-        <a
-          className="flex justify-between items-center w-full text-gray-300"
-          href="/"
-          download
-        >
+      <a
+        className="flex justify-between items-center w-full text-gray-300"
+        href="https://drive.google.com/file/d/1LRvo1rpWa7uEg5NkKW-uHdAUyAahX7Lm/view?usp=sharing"
+      >
+        <li className="w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#852222]">
           Télécharger CV <BsFillFileEarmarkPdfFill size={30} />
-        </a>
-      </li>
+        </li>
+      </a>
     </ul>
   );
 };
