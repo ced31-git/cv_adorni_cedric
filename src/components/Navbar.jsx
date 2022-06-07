@@ -25,19 +25,19 @@ const Navbar = () => {
             <a href="/cv_adorni_cedric">Accueil</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/about">A propos</a>
+            <a href="/cv_adorni_cedric/about">A propos</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/education">Formations & Expériences</a>
+            <a href="/cv_adorni_cedric/education">Formations & Expériences</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/skills">Compétences</a>
+            <a href="/cv_adorni_cedric/skills">Compétences</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/work">Projets Réalisés</a>
+            <a href="/cv_adorni_cedric/work">Projets Réalisés</a>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/contact">Contact</a>
+            <a href="/cv_adorni_cedric/contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -58,10 +58,10 @@ const Navbar = () => {
           <a href="/cv_adorni_cedric">Accueil</a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/about">A propos</a>
+          <a href="/cv_adorni_cedric/about">A propos</a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/education">
+          <a href="/cv_adorni_cedric/education">
             <ul className="">
               <li className="flex justify-center items-center">Formations</li>
               <li className="flex justify-center items-center">&</li>
@@ -70,13 +70,13 @@ const Navbar = () => {
           </a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/skills">Compétences</a>
+          <a href="/cv_adorni_cedric/skills">Compétences</a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/work">Projets Réalisés</a>
+          <a href="/cv_adorni_cedric/work">Projets Réalisés</a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/contact">Contact</a>
+          <a href="/cv_adorni_cedric/contact">Contact</a>
         </li>
       </ul>
       {/* Icones Réseaux Sociaux: lg screen*/}
