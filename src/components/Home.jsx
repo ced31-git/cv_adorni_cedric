@@ -34,12 +34,17 @@ const Home = () => {
             </button>
           </Link>
 
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-vertfluo hover:border-vertfluo hover:text-darkblue">
-            Télécharger le CV
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-4 " />
-            </span>
-          </button>
+          <a
+            href="src\assets\doc\cv-adorni-cedric-2022 .pdf"
+            download="cv-adorni-cedric-2022.pdf"
+          >
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-vertfluo hover:border-vertfluo hover:text-darkblue">
+              Télécharger le CV
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-4 " />
+              </span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
