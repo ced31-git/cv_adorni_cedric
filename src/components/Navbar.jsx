@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../assets/icons/Logo_CA.png";
+import { Link } from "react-scroll";
 import SocialIcons from "./subcomponents/Social_Icons";
-import {Link} from "react-router-dom"
-
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -18,22 +17,34 @@ const Navbar = () => {
       <div className="hidden md:flex ">
         <ul className="flex">
           <li className=" md:hover:underline md:hover:text-vertfluo">
-            <Link to="/cv_adorni_cedric">Accueil</Link>
+            <Link to="home" smooth={true} duration={500}>
+              Accueil
+            </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="/cv_adorni_cedric/about">A propos</Link>
+            <Link to="about" smooth={true} duration={500}>
+              A propos
+            </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="/cv_adorni_cedric/education">Formations & Expériences</Link>
+            <Link to="education" smooth={true} duration={500}>
+              Formations & Expériences
+            </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="/cv_adorni_cedric/skills">Compétences</Link>
+            <Link to="skills" smooth={true} duration={500}>
+              Compétences
+            </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="/cv_adorni_cedric/work">Projets Réalisés</Link>
+            <Link to="work" smooth={true} duration={500}>
+              Projets Réalisés
+            </Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="/cv_adorni_cedric/contact">Contact</Link>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
@@ -51,13 +62,23 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link to="/cv_adorni_cedric">Accueil</Link>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            Accueil
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/cv_adorni_cedric/about">A propos</Link>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            A propos
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/cv_adorni_cedric/education">
+          <Link
+            onClick={handleClick}
+            to="education"
+            smooth={true}
+            duration={500}
+          >
+            Formations & Expériences
             <ul className="">
               <li className="flex justify-center items-center">Formations</li>
               <li className="flex justify-center items-center">&</li>
@@ -66,13 +87,19 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/cv_adorni_cedric/skills">Compétences</Link>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Compétences
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/cv_adorni_cedric/work">Projets Réalisés</Link>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            Projets Réalisés
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/cv_adorni_cedric/contact">Contact</Link>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
       {/* Icones Réseaux Sociaux: lg screen*/}
