@@ -1,13 +1,9 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import {
-  BsFillPersonLinesFill,
-  BsFillFileEarmarkPdfFill,
-} from "react-icons/bs";
+import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../assets/icons/Logo_CA.png";
 import SocialIcons from "./subcomponents/Social_Icons";
-import {Routes, Route} from "react-router-dom"
+import {Link} from "react-router-dom"
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -22,22 +18,22 @@ const Navbar = () => {
       <div className="hidden md:flex ">
         <ul className="flex">
           <li className=" md:hover:underline md:hover:text-vertfluo">
-            <a href="/">Accueil</a>
+            <Link to="/">Accueil</Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/about">A propos</a>
+            <Link to="/about">A propos</Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/education">Formations & Expériences</a>
+            <Link to="/education">Formations & Expériences</Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/skills">Compétences</a>
+            <Link to="/skills">Compétences</Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/work">Projets Réalisés</a>
+            <Link to="/work">Projets Réalisés</Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
@@ -55,28 +51,28 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <a href="/">Accueil</a>
+          <Link to="/">Accueil</Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/about">A propos</a>
+          <Link to="/about">A propos</Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/education">
+          <Link to="/education">
             <ul className="">
               <li className="flex justify-center items-center">Formations</li>
               <li className="flex justify-center items-center">&</li>
               <li className="flex justify-center items-center">Expériences</li>
             </ul>
-          </a>
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/skills">Compétences</a>
+          <Link to="/skills">Compétences</Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/work">Projets Réalisés</a>
+          <Link to="/work">Projets Réalisés</Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
       {/* Icones Réseaux Sociaux: lg screen*/}
