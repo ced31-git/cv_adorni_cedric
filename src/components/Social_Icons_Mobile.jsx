@@ -77,6 +77,8 @@ const Social_Icons_Mobile = () => {
           <a
             className="flex justify-center items-center w-full text-gray-300"
             href="https://drive.google.com/file/d/1LRvo1rpWa7uEg5NkKW-uHdAUyAahX7Lm/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
           >
             <ul>
               <li>

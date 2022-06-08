@@ -40,6 +40,8 @@ const Social_Icons = () => {
       <a
         className="flex justify-between items-center w-full text-gray-300"
         href="https://drive.google.com/file/d/1LRvo1rpWa7uEg5NkKW-uHdAUyAahX7Lm/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
       >
         <li className="w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#852222]">
           Télécharger CV <BsFillFileEarmarkPdfFill size={30} />
