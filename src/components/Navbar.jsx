@@ -18,22 +18,22 @@ const Navbar = () => {
       <div className="hidden md:flex ">
         <ul className="flex">
           <li className=" md:hover:underline md:hover:text-vertfluo">
-            <Link to="/">Accueil</Link>
+            <Link to="/cv_adorni_cedric">Accueil</Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="/about">A propos</Link>
+            <Link to="/cv_adorni_cedric/about">A propos</Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="/education">Formations & Expériences</Link>
+            <Link to="/cv_adorni_cedric/education">Formations & Expériences</Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="/skills">Compétences</Link>
+            <Link to="/cv_adorni_cedric/skills">Compétences</Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="/work">Projets Réalisés</Link>
+            <Link to="/cv_adorni_cedric/work">Projets Réalisés</Link>
           </li>
           <li className="md:hover:underline md:hover:text-vertfluo">
-            <Link to="/contact">Contact</Link>
+            <Link to="/cv_adorni_cedric/contact">Contact</Link>
           </li>
         </ul>
       </div>
@@ -51,13 +51,13 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link to="/">Accueil</Link>
+          <Link to="/cv_adorni_cedric">Accueil</Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/about">A propos</Link>
+          <Link to="/cv_adorni_cedric/about">A propos</Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/education">
+          <Link to="/cv_adorni_cedric/education">
             <ul className="">
               <li className="flex justify-center items-center">Formations</li>
               <li className="flex justify-center items-center">&</li>
@@ -66,13 +66,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/skills">Compétences</Link>
+          <Link to="/cv_adorni_cedric/skills">Compétences</Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/work">Projets Réalisés</Link>
+          <Link to="/cv_adorni_cedric/work">Projets Réalisés</Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/contact">Contact</Link>
+          <Link to="/cv_adorni_cedric/contact">Contact</Link>
         </li>
       </ul>
       {/* Icones Réseaux Sociaux: lg screen*/}
