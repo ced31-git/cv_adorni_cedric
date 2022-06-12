@@ -78,7 +78,6 @@ const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            Formations & Expériences
             <ul className="">
               <li className="flex justify-center items-center">Formations</li>
               <li className="flex justify-center items-center">&</li>
