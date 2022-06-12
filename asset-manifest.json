@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/cv_adorni_cedric/static/css/main.e1ce07c1.css",
-    "main.js": "/cv_adorni_cedric/static/js/main.e55a84fd.js",
+    "main.js": "/cv_adorni_cedric/static/js/main.c6f53a57.js",
     "static/media/sliderJs.png": "/cv_adorni_cedric/static/media/sliderJs.5f8d636b846761944de2.png",
     "static/media/bep07.png": "/cv_adorni_cedric/static/media/bep07.9915309346d8af4ec0e6.png",
     "static/media/cap12.png": "/cv_adorni_cedric/static/media/cap12.0ad7f1e305dba9144652.png",
     "static/media/bac09.png": "/cv_adorni_cedric/static/media/bac09.a2e0e8d8c14aa1d8c08f.png",
+    "static/media/netflixClone.png": "/cv_adorni_cedric/static/media/netflixClone.0ea4d984c5d13eed537f.png",
     "static/media/generatorLinearGradientJs.png": "/cv_adorni_cedric/static/media/generatorLinearGradientJs.38999041d23f0b17d813.png",
     "static/media/sliderReact.png": "/cv_adorni_cedric/static/media/sliderReact.5b26a98d346e2e651cc8.png",
     "static/media/dragAndDropJs.png": "/cv_adorni_cedric/static/media/dragAndDropJs.9fd2f18cb861a417953f.png",
@@ -15,6 +16,7 @@
     "static/media/adorniCedric.png": "/cv_adorni_cedric/static/media/adorniCedric.d838a9ad639fb3bce449.png",
     "static/media/SEO.png": "/cv_adorni_cedric/static/media/SEO.71901755cfcb1e287670.png",
     "static/media/Portfolio.png": "/cv_adorni_cedric/static/media/Portfolio.970238ba17e1b5d8d198.png",
+    "static/media/firebase.png": "/cv_adorni_cedric/static/media/firebase.bff5748e0ad72bf0c427.png",
     "static/media/algorithme.png": "/cv_adorni_cedric/static/media/algorithme.1ab656a806287a726d7c.png",
     "static/media/toDoListJs.png": "/cv_adorni_cedric/static/media/toDoListJs.aeef134e3045115d1287.png",
     "static/media/anglais.png": "/cv_adorni_cedric/static/media/anglais.482a29574ea22d55108e.png",
@@ -36,10 +38,10 @@
     "static/media/javascript.png": "/cv_adorni_cedric/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/cv_adorni_cedric/index.html",
     "main.e1ce07c1.css.map": "/cv_adorni_cedric/static/css/main.e1ce07c1.css.map",
-    "main.e55a84fd.js.map": "/cv_adorni_cedric/static/js/main.e55a84fd.js.map"
+    "main.c6f53a57.js.map": "/cv_adorni_cedric/static/js/main.c6f53a57.js.map"
   },
   "entrypoints": [
     "static/css/main.e1ce07c1.css",
-    "static/js/main.e55a84fd.js"
+    "static/js/main.c6f53a57.js"
   ]
 }
